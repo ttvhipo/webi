@@ -1,0 +1,86 @@
+body {
+  background-color: black;
+}
+.black {
+	z-index:4;
+    background-color:black;
+	background-repeat:repeat;
+	position:fixed;
+	width:100%;
+	height:100%;
+}
+
+.backg {
+	z-index:0;
+    cursor: url(../images/swasticock2.png), auto;
+    background-image:url(../images/naggars.gif);
+	background-repeat:repeat;
+	position:fixed;
+	size:50%;
+	width:100%;
+	height:100%;
+}
+
+.center{
+z-index:1;
+left: 50%;
+position: fixed;
+top: 50%;
+height:40%;
+width:40%;
+transform: translate(-50%, -50%);
+}
+.centain{
+cursor: url(../images/swasticock2.png), auto;
+display: -webkit-box;
+display: -webkit-flex;
+display: -moz-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-flex-align: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+justify-content: center; 
+align-items: center;
+}
+.center2{
+margin:auto;
+z-index:6;
+display:inline-block;
+position:fixed;
+}
+.centain2{
+margin:auto;
+z-index:6;
+}
+
+.centered {
+cursor: pointer;
+z-index:8;
+left: 50%;
+position: fixed;
+top: 50%;
+transform: translate(-50%, -50%);
+}
+.fandom {
+z-index:8;
+left: 50%;
+position: fixed;
+top: 80%;
+transform: translate(-50%, -50%);
+}
+
+.chute {
+z-index:8;
+left: 50%;
+position: fixed;
+top: 95%;
+transform: translate(-50%, -50%);
+}
+
+.trap{
+  z-index:1;
+  position:absolute;
+  background-color:transparent;
+  width:100%;
+  height: 130px;
